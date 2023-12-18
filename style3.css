@@ -1,0 +1,27 @@
+.first{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+}
+
+.second{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+}
+.third{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+}
+
+.container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   
+}

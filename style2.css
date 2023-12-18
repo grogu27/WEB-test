@@ -1,0 +1,37 @@
+.yandex-taxi-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 200px;
+    animation: anim 2s linear infinite;
+  }
+  
+  .rectangle-first {
+    width: 200px;
+    height: 50px; 
+    background-color: yellow;
+  }
+  
+  .rectangle-horizontal {
+    display: flex; /* Устанавливаем горизонтальный flex-контейнер */
+  }
+  
+.rectangle-second{
+    width: 100px;
+    height: 50px; 
+    background-color: gray;
+}
+
+
+.rectangle-third{
+    width: 100px;
+    height: 50px; 
+    background-color: black; 
+}
+  
+@keyframes anim{
+  100%{
+    transform: rotate(360deg);
+  }
+}
